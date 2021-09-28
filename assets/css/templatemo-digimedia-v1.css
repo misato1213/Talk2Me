@@ -1735,160 +1735,6 @@ Portfolio
 
 /* 
 ---------------------------------------------
-Blog
---------------------------------------------- 
-*/
-
-.blog:before {
-  content: '';
-  background-image: url(../images/blog-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 961px;
-  height: 1020px;
-  z-index: 0;
-}
-
-.blog {
-  position: relative;
-  padding-top: 130px;
-}
-
-.blog .section-heading {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-.blog .section-heading .line-dec {
-  margin: 0 auto;
-}
-
-.show-up {
-  position: relative;
-  z-index: 200;
-}
-
-.blog-post {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 25px;
-}
-
-.blog-post .thumb img {
-  border-top-right-radius: 23px;
-  border-top-left-radius: 23px;
-}
-
-.blog-post .down-content {
-  border-bottom-right-radius: 23px;
-  border-bottom-left-radius: 23px;
-  background-color: #fff;
-  padding: 30px;
-}
-
-.blog-post .down-content span.category {
-  font-size: 15px;
-  color: #fff;
-  padding: 8px 12px;
-  background-color: #a5be00;
-  border-radius: 18px;
-  display: inline-block;
-}
-
-.blog-post .down-content span.date {
-  font-size: 15px;
-  color: #afafaf;
-  text-align: right;
-  float: right;
-  margin-top: 4px;
-}
-
-.blog-post .down-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  line-height: 30px;
-}
-
-.blog-post .down-content p {
-  margin-bottom: 30px;
-}
-
-.blog-post .down-content span.author {
-  font-size: 15px;
-  color: #2a2a2a;
-}
-
-.blog-post .down-content span.author img {
-  max-width: 56px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.blog-post .down-content .border-first-button {
-  display: inline-block;
-  float: right;
-}
-
-.blog-posts {
-  margin-left: 30px;
-}
-
-.post-item {
-  margin-bottom: 62px;
-}
-
-.last-post-item {
-  margin-bottom: 0px;
-}
-
-.post-item .thumb {
-  display: inline-block;
-  float: left;
-  margin-right: 30px;
-}
-
-.post-item .thumb img {
-  border-radius: 23px;
-  display: inline-block;
-}
-
-.post-item .right-content {
-  padding-top: 20px;
-}
-
-.post-item .right-content span.category {
-  font-size: 15px;
-  color: #fff;
-  padding: 8px 12px;
-  background-color: #a5be00;
-  border-radius: 18px;
-  display: inline-block;
-}
-
-.post-item .right-content span.date {
-  font-size: 15px;
-  color: #afafaf;
-  text-align: right;
-  float: right;
-  margin-top: 4px;
-}
-
-.post-item .right-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  line-height: 30px;
-}
-
-
-/* 
----------------------------------------------
 contact
 --------------------------------------------- 
 */
@@ -1906,8 +1752,7 @@ contact
   margin-bottom: 80px;
 }
 
-
-form#contact:before {
+/* form#contact:before {
   background-image: url(../images/contact-top-right-v3.png);
   position: absolute;
   right: 0;
@@ -1917,16 +1762,16 @@ form#contact:before {
   background-repeat: no-repeat;
   content: '';
   z-index: 1;
-}
+} */
 
-.contact-dec img {
+/* .contact-dec img {
   max-width: 224px;
   position: absolute;
   right: 25px;
   top: -242px;
-}
+} */
 
-form#contact:after {
+/* form#contact:after {
   background-image: url(../images/contact-bottom-right-v3.png);
   position: absolute;
   right: 0;
@@ -1936,23 +1781,23 @@ form#contact:after {
   background-repeat: no-repeat;
   content: '';
   z-index: 1;
-}
+} */
 
-form#contact {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+form#form {
+  /* box-shadow: 0px 0px 15px rgba(0,0,0,0.1); */
   position: relative;
-  background-color: #fff;
-  border-radius: 23px;
+  /* background-color: #fff; */
+  /* border-radius: 23px; */
   text-align: center;
 }
 
-form#contact #map iframe {
+/* form#contact #map iframe {
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   margin-bottom: -7px;
   position: relative;
   z-index: 2;
-}
+} */
 
 .fill-form {
   padding: 80px 60px 80px 30px;
@@ -1988,7 +1833,7 @@ form#contact #map iframe {
   color: #018016;
 }
 
-form#contact input {
+form#form input {
   width: 100%;
   height: 46px;
   background-color: transparent;
@@ -2002,11 +1847,11 @@ form#contact input {
   margin-top: 30px;
 }
 
-form#contact input::placeholder {
+form#form input::placeholder {
   color: #414141;
 }
 
-form#contact textarea {
+form#form textarea {
   width: 100%;
   min-width: 100%;
   max-width: 100%;
@@ -2024,11 +1869,11 @@ form#contact textarea {
   margin-top: 30px;
 }
 
-form#contact textarea::placeholder {
+form#form textarea::placeholder {
   color: #414141;
 }
 
-form#contact button {
+form#form input {
   display: inline-block;
   background-color: #fff;
   font-size: 15px;
@@ -2045,9 +1890,19 @@ form#contact button {
   outline: none;
 }
 
-form#contact button:hover {
+form#form input:hover {
   background-color: #018016!important;
   color: #fff!important;
+}
+
+.end-message {
+  display: none;
+  text-align: center;
+}
+
+.false-message {
+  display: none;
+  text-align: center;
 }
 
 /* 
@@ -2098,7 +1953,7 @@ responsive
   .intro-banner:before {
     display: none;
   } 
-  form#contact {
+  form#form {
     overflow: hidden;
   }
   .header-area .main-nav .logo h4 {
@@ -2161,7 +2016,7 @@ responsive
   .contact-info {
     margin-top: 60px;
   }
-  form#contact {
+  form#form {
     padding: 45px;
   }
 }
@@ -2243,7 +2098,7 @@ responsive
   .about-us .about-item {
     margin-top: 15px;
   }
-  form#contact {
+  form#form {
     padding: 30px;
   }
 }
