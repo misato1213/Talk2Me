@@ -1873,7 +1873,7 @@ form#form textarea::placeholder {
   color: #414141;
 }
 
-form#form input {
+#submitbtn .submit-btn {
   display: inline-block;
   background-color: #fff;
   font-size: 15px;
@@ -1885,12 +1885,12 @@ form#form input {
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid#018016;
+  border: 5px solid#018016;
   transition: all .3s;
   outline: none;
 }
 
-form#form input:hover {
+#submitbtn:hover {
   background-color: #018016!important;
   color: #fff!important;
 }
