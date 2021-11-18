@@ -123,7 +123,7 @@ ul {
   margin-bottom: 0px;
 }
 
-p {
+p, dt, dd {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -429,9 +429,9 @@ header
   transform: translateX(-50%);
 }
 
-.background-header .nav li:last-child a.active:after {
+/* .background-header .nav li:last-child a.active:after {
   background-color: transparent;
-}
+} */
 
 .header-area {
   background-color: rgba(3, 2, 2, 0);
@@ -499,21 +499,21 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:last-child {
+/* .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
   padding-left: 40px;
-}
+} */
 
-.header-area .main-nav .nav li:last-child a ,
+/* .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
   padding: 0px 20px !important;
   font-weight: 400;
-}
+} */
 
-.header-area .main-nav .nav li:last-child a:hover ,
+/* .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
   color: #fff !important;
-}
+} */
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -757,10 +757,10 @@ header
 }
 
 @media (max-width: 992px) {
-  .header-area .main-nav .nav li:last-child  ,
+  /* .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
     display: none;
-  }
+  } */
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
@@ -771,9 +771,9 @@ header
 }
 
 @media (max-width: 767px) {
-  .pre-header ul.info li:last-child {
+  /* .pre-header ul.info li:last-child {
     display: none;
-  }
+  } */
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -1365,28 +1365,7 @@ Teacher Style
 --------------------------------------------- 
 */
 
-.teacher {
-  padding-top: 130px;
-  position: relative;
-}
 
-.teacher .section-heading {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-.teacher .section-heading .line-dec {
-  margin: 0 auto;
-}
-
-.teacher-left-image img {
-  margin-right: 45px;
-}
-
-.teacher-right-content p {
-  margin-top: 30px;
-  margin-bottom: 45px;
-}
 #teacher {
   padding-top: 130px;
 }
@@ -1818,7 +1797,7 @@ question
   text-align: center;
   margin-bottom: 80px;
 }
-.accordion {
+/* .accordion {
   margin: auto;
   width: 400px;
 }
@@ -1889,7 +1868,7 @@ input:checked + .box {
   height: auto;
   margin: 16px 0;
     /* box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32); */
-}
+/* }
 
 input:checked + .box .box-title {
   border-bottom: 1px solid rgba(0,0,0,.18);
@@ -1922,8 +1901,35 @@ input:checked + section.box .box-title:before {
 
 #question input {
   visibility: hidden;
-}
+} */
 
+.QandA-1 {
+}
+.QandA-1 dt {
+	/* background: #018016; 「Q」タイトルの背景色 */
+	border: 1px solid #018016;
+  color: #646464; /* 「Q」タイトルの文字色 */
+	padding: 10px 10px 10px 25px;
+	border-radius: 25px;
+}
+.QandA-1 dt:before {
+	content: "Q.";
+	margin-right: 8px;
+  font-weight: bold;
+  color: #018016;
+}
+.QandA-1 dd {
+	margin: 24px 16px 40px 50px;
+	line-height: 140%;
+	text-indent: -24px;
+  color: #646464;
+}
+.QandA-1 dd:before {
+	content: "A.";
+	margin-right: 8px;
+  font-weight: bold;
+  color: #c90707;
+}
 
 
 /* 
@@ -2137,9 +2143,9 @@ responsive
     max-width: 25px;
     margin-left: 0px;
   }
-  .header-area .main-nav .nav li:last-child {
+  /* .header-area .main-nav .nav li:last-child {
     padding-left: 20px;
-  }
+  } */
 }
 
 @media (max-width: 992px) {
@@ -2295,3 +2301,5 @@ responsive
     padding: 30px;
   }
 }
+
+
